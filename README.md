@@ -1,9 +1,10 @@
 # Create React App [![Build Status](https://dev.azure.com/facebook/create-react-app/_apis/build/status/facebook.create-react-app?branchName=master)](https://dev.azure.com/facebook/create-react-app/_build/latest?definitionId=1&branchName=master) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-green.svg)](https://github.com/facebook/create-react-app/blob/master/CONTRIBUTING.md)
 
-### How to use shortcusboy-react-scripts:
-command: `npx create-react-app your-app-name --scripts-version shortcutboy-react-script`
-
-### How to publish shortcusboy-react-scripts:
+### How to use:
+```sh
+npx create-react-app app-name --scripts-version shortcutboy-react-script
+```
+### How to publish:
 `cd` to the react-scripts directory from your terminal like so: `shortcutboy-react-scripts/packages/react-scripts`, and then login npm and publish your customized react-scripts.
 
 <img alt="Logo" align="right" src="https://create-react-app.dev/img/logo.svg" width="20%" />
