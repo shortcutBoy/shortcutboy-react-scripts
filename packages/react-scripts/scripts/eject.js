@@ -260,9 +260,9 @@ prompts({
       // Remove react-scripts reference since they're getting a copy of the types in their project
       content =
         content
-          // Remove react-scripts types
+          // Remove shortcutboy-react-scripts types
           .replace(
-            /^\s*\/\/\/\s*<reference\s+types.+?"react-scripts".*\/>.*(?:\n|$)/gm,
+            /^\s*\/\/\/\s*<reference\s+types.+?"shortcutboy-react-scripts".*\/>.*(?:\n|$)/gm,
             ''
           )
           .trim() + os.EOL;
