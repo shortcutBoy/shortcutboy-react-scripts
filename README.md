@@ -4,6 +4,16 @@
 ```sh
 npx create-react-app app-name --scripts-version shortcutboy-react-scripts
 ```
+### Pull upstream master:
+```sh
+git fetch upstream master
+```
+```sh
+git merge upstream/master merge
+```
+```sh
+git push
+```
 ### How to publish:
 `cd` to the react-scripts directory from your terminal like so: `shortcutboy-react-scripts/packages/react-scripts`, and then login npm and publish your customized react-scripts.
 
