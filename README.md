@@ -4,7 +4,7 @@
 ```sh
 npx create-react-app app-name --scripts-version shortcutboy-react-scripts
 ```
-### Pull upstream master:
+### Pull from upstream master:
 ```sh
 git fetch upstream master
 ```
@@ -14,7 +14,9 @@ git merge upstream/master merge
 ```sh
 git push
 ```
-### How to publish:
+
+or use your github website to merge master commit.
+### Publish:
 `cd` to the react-scripts directory from your terminal like so: `shortcutboy-react-scripts/packages/react-scripts`, and then login npm and publish your customized react-scripts.
 
 <img alt="Logo" align="right" src="https://create-react-app.dev/img/logo.svg" width="20%" />
